@@ -21,6 +21,7 @@ class UserForm {
   }
 
   setRegisterErrorMessage(message) {
+    
     this.registerErrorMessageBox.innerText = message;
     this.registerErrorMessageBox.style.display = 'block';
     setTimeout(() => { this.registerErrorMessageBox.style.display = 'none'; }, 5000);
